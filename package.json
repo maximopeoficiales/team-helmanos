@@ -17,9 +17,12 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
     "autoprefixer": "^9.8.6",
+    "rollup-plugin-css-only": "^2.1.0",
     "sirv-cli": "^1.0.0",
     "svelte-preprocess": "^4.2.1",
+    "svelte-routing": "^1.4.2",
     "tailwindcss": "^1.8.5"
   }
 }
