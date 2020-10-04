@@ -1,5 +1,5 @@
 <script>
-  import Index from "./Pages/Index.svelte";
+  import IndexPage from "./Pages/IndexPage.svelte";
   import { Router, Route } from "svelte-routing";
   import Brother from "./Pages/Brother.svelte";
 </script>
@@ -14,6 +14,6 @@
 </style>
 
 <Router>
-  <Route path="/" component={Index} />
+  <Route path="/" component={IndexPage} />
   <Route path="/brother/:id" component={Brother} let:params />
 </Router>
