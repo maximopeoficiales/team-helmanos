@@ -25,7 +25,7 @@
             <button
               class="flex justify-between p-4 my-2 text-2xl font-bold tracking-wider transition-all duration-700 ease-in-out delay-75 bg-black border-none rounded-lg active:bg-black hover:bg-gray-900">
               <p>Ver Biografia</p>
-              <span> -> </span>
+              <span> {'->'} </span>
             </button>
           </div>
           <div class="">
