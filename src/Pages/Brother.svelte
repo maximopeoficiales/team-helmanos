@@ -20,7 +20,7 @@
           <div class="flex flex-col justify-center">
             <h1 class="text-6xl font-extrabold ">{dataCurrent.shortname}</h1>
             <p class="text-2xl font-bold"><b>{dataCurrent.career}</b></p>
-            <p class="text-2xl ">{dataCurrent.description}</p>
+            <p class="text-2xl " in:typewriter>{dataCurrent.description}</p>
 
             <button
               class="flex justify-between p-4 my-2 text-2xl font-bold tracking-wider transition-all duration-700 ease-in-out delay-75 bg-black border-none rounded-lg active:bg-black hover:bg-gray-900">
